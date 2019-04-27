@@ -1,0 +1,39 @@
+.resumeBox{
+    width:100%;
+    height:500px;
+    background: #fff;
+}
+.resume_childBox{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.lefts{
+    width:50%;
+    height:100%;
+}
+.lefts img{
+    width:100%;
+    height:250px;
+    display: block;
+    margin:5px 0;
+}
+.rigs{
+    width:50%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rigs>p{
+    padding-top:20px;
+    margin:0 !important;
+    color:#f40;
+    font-weight: bold;
+}
+.sps{
+    width:400px;
+    height:210px;
+}

@@ -1,0 +1,32 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  
+}
+header {
+  width: 100%;
+  height: 64px;
+  background: #001529;
+  display: flex!important;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20px;
+
+}
+.home-layout{
+  flex:1;
+  overflow: hidden;
+}
+header p {
+  margin-top:10px;
+  font-size:18px;
+  color: #ffffff;
+}
+.right button{
+  transform: scale(.8)
+}
